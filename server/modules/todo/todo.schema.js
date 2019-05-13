@@ -16,7 +16,7 @@ exports.getTodo = {
 exports.updateTodo = {
     body: {
         task: Joi.string(),
-        completedAt: Joi.string()
+        completedAt: Joi.any()
     },
 }
 
